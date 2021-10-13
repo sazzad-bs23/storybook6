@@ -6,9 +6,9 @@ export default {
     title: 'Molecules/Subscription'
 }
 
-export const PrimarySubscription = () => (
-    <>
-        <Large />
-        <Primary />
-    </>
-)
+// export const PrimarySubscription = () => (
+//     <>
+//         <Large />
+//         <Primary />
+//     </>
+// )

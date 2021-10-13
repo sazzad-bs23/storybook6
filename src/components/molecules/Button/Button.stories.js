@@ -9,27 +9,39 @@ export default {
     }
 }
 
-export const Primary = () => <Button variant='primary'>Primary</Button>
-export const Secondary = () => <Button variant='secondary'>Secondary</Button>
-export const Success = () => <Button variant='success'>Success</Button>
-export const Danger = () => <Button variant='danger'>Danger</Button>
+// export const Primary = () => <Button variant='primary'>Primary</Button>
+// export const Secondary = () => <Button variant='secondary'>Secondary</Button>
+// export const Success = () => <Button variant='success'>Success</Button>
+// export const Danger = () => <Button variant='danger'>Danger</Button>
 
 const Template = args => <Button {...args} />
 
-export const PrimaryA = Template.bind({})
-PrimaryA.args = {
+export const Primary = Template.bind({})
+Primary.args = {
     variant: 'primary',
     // children: 'Primary Args'
 }
 
-export const LongPrimaryA = Template.bind({})
-LongPrimaryA.args = {
-    ...PrimaryA.args,
-    children: 'Long Primary'
+// export const LongPrimary = Template.bind({})
+// LongPrimary.args = {
+//     ...Primary.args,
+//     children: 'Long Primary'
+// }
+
+export const Secondary = Template.bind({})
+Secondary.args = {
+    variant: 'secondary',
+    // children: 'Secondary Args'
 }
 
-export const SecondaryA = Template.bind({})
-SecondaryA.args = {
-    variant: 'secondary',
+export const Success = Template.bind({})
+Success.args = {
+    variant: 'success',
+    // children: 'Secondary Args'
+}
+
+export const Danger = Template.bind({})
+Danger.args = {
+    variant: 'danger',
     // children: 'Secondary Args'
 }
